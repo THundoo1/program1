@@ -24,6 +24,10 @@ ASCII_UPPERCASE = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"`
 
   **find_chr(s,char)**: Checks if a single character in the string can be found. If not found it will return -1 and if it is not a single character it will return -1 as well.
 
+  **replace_chr(s,old,new)**: This will check if the old and new character of the string are both equal to 1 and will allow the selected old character to update and be replaced to the new character.
+
+  **replace_str(s,old,new)**: This will check if the string is empty and will insert a new string. If no empty string is found it will take the old string and replace it with the new one.
+
   #### Example Output:
 
   The example I used was is_digit("abc") to show you that the output came back False becasue it does not follow under the numeric terms for the function. 
